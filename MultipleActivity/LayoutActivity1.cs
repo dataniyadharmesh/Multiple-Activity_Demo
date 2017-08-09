@@ -30,7 +30,7 @@ namespace MultipleActivity
             {
                 //logonButtonClick();
                 StartActivity(typeof(LayoutActivity2));
-                Toast.MakeText(this, "Jump To Next Page ", ToastLength.Short).Show();
+                Toast.MakeText(this, "Jump To Next page (2nd Screen) ", ToastLength.Short).Show();
 
             };
 
