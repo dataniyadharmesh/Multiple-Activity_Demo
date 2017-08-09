@@ -57,11 +57,48 @@ namespace MultipleActivity
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050001
+			public const int buttonLast1 = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int buttonNext1 = 2131034114;
+			
+			// aapt resource value: 0x7f050000
+			public const int textView1 = 2131034112;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int layout1 = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int layout2 = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int layout3 = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int layout4 = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int layout5 = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Main = 2130903045;
 			
 			static Layout()
 			{

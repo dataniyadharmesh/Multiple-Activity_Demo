@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:text="Main Screen"
+        android:text="1st Screen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -16,18 +16,20 @@
         android:layout_weight="1">
         <Button
             android:text="Previous"
-            android:layout_width="164.0dp"
+            android:layout_width="150.0dp"
             android:layout_height="wrap_content"
             android:id="@+id/buttonLast1"
             android:layout_marginRight="72.0dp" />
         <LinearLayout
             android:layout_height="match_parent"
-            android:layout_width="match_parent">
+            android:layout_width="159.5dp">
             <Button
                 android:text="Next"
-                android:layout_width="139.5dp"
+                android:layout_width="153.5dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/buttonNext1" />
+                android:id="@+id/buttonNext1"
+                android:layout_marginRight="6.0dp"
+                android:layout_marginLeft="0.0dp" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
